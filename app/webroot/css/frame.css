@@ -1,0 +1,105 @@
+
+div {
+	position: relative;
+	overflow: hidden;
+}
+
+@font-face {
+	src: url('/contactor/css/fonts/glyphicons-halflings-regular.ttf');
+	font-family: glyphicons;
+}
+@font-face {
+	src: url('/contactor/css/fonts/nanumgothic.ttf');
+	font-family: nanumgothic;
+}
+@font-face {
+	src: url('/contactor/css/fonts/nanumgothicBold.ttf');
+	font-family: nanumgothicBold;
+}
+
+.doc-header {
+	position: relative;
+	width: 1600px;
+	height: 80px;
+	background-color: #503830;
+	box-shadow: 0px 0px 10px black;
+	z-index: 2;
+}
+.doc-title {
+	width: 350px;
+	height: 50px;
+	margin-top: 4px;
+	margin-left: 20px;
+	font-size: 40px;
+	font-family: glyphicons;
+	font-weight: bold;	
+	letter-spacing: -0.11em;
+	color: #d1c7b1;
+}
+.doc-title span {
+	margin-left: -25px;
+	font-size: 55px;
+}
+.doc-center {
+	position: relative;	
+	width: 1600px;
+	height: 665px;
+	background-color: #fff;
+	z-index: 1;
+}
+.doc-footer {
+	width: 1600px;
+	height: 30px;
+	position: relative;
+	z-index: 2;
+	bottom: 0;
+	box-shadow: 0px 0px 10px black;	
+}
+.doc-footer .footer-content {
+	width: 100%;
+	height: 100%;
+	background-color: #503830;
+	position: absolute;
+	bottom: 0;
+	-webkit-transition: height 0.2s;
+	-moz-transition: height 0.2s;
+	-o-transition: height 0.2s;
+	transition: height 0.2s;
+}
+.ajax-modal {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 3;
+}
+.ajax-modal .color-div {
+	width: 100%;
+	height: 100%;
+	background: #ddd;
+	opacity: 0.6;	
+}
+.wait-content {
+	position: absolute;
+	top: -65px;
+	left: -50px;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	width: 100px;
+	height: 130px;
+}
+.wait-content .wait-image {
+	width: 100px;
+	height: 100px;
+}
+.wait-content .wait-text {
+	width: 100%;
+	height: 20px;
+	font-family: glyphicons;
+	color: #aaa;
+	margin: 0;
+	margin-top: 10px;
+	text-align: center;
+}

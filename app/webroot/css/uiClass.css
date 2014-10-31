@@ -1,0 +1,14 @@
+.img-btn {
+	background-color: transparent;
+	background-size: 100%;
+	border: none;
+}
+.img-btn:focus {
+	outline: 0;
+}
+.hidden {
+	display: none;
+}
+.no-height {
+	height: 0;
+}
